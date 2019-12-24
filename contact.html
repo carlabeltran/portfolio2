@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- meta tags -->
+<meta charset="UTF-8">
+<meta name="description" content="professional portfolio">
+<meta name="author" content="carla beltran"> 
+<!-- This is for mobile responsive -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<!-- This is the title on my tab -->
+<title>Contact | Carla Beltran</title>
+<!-- CSS style -->
+<style>
+::after, ::before {
+    box-sizing: border-box;
+}
+.navbar-expand {
+    justify-content: flex-start;
+    justify-content: center;
+}
+.nav-link {
+    color: #fff;
+    justify-content: flex-start;
+    margin-inline-start: 30px;
+    margin-inline-end: 30px;
+    justify-content: end;
+}
+body, html {
+height: 100%;
+}
+.bg {
+background-image: url("assets/nice_snow_@2X copy.jpg");
+height: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.container{
+    background-color: white;
+    margin: 0 auto;
+}
+
+.footer{
+    width: 100%;
+}
+</style>  
+<!-- body background picture -->
+<a href img src="assets/nice_snow_@2X copy.jpg" class="img-fluid" alt="Responsive image"></a>
+<!-- link for bootstrap CDN -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> 
+</head>
+<body text-align="center" class="bg">
+<!-- navagation bar in the header-->
+<nav class="navbar navbar-dark bg-dark navbar-expand-sm-md-lg">
+    <div class="navbar-brand">Carla Beltran</div>
+        <div class="d-flex justify-content-center-end" id="navbarSupportedContent">
+        <div class="nav-item">
+        <a class="nav-link active text-white" href="index.html">About Me</a>
+        </div>
+        <div class="nav-item">
+        <a class="nav-link text-white" href="portfolio.html">Portfolio</a>
+        </div>
+        <div class="nav-item">
+        <a class="nav-link text-white" href="contact.html">Contact</a>
+        </div>
+    </nav>
+<!-- contact container -->
+<div class="container pt-3 p-3 my-3 border background-color-white">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="page-header">
+                <h2 class="h2-responsive font-weight-bold my-4">Contact</h2>
+                    <br>
+        </div>
+    </div>
+</div>
+<!-- form contact -->
+<form class="mb-4">
+    <!-- second row (name) -->
+    <div class="row">
+        <!-- second column-->
+        <div class="col-md-12 mb-md-0 mb-5">
+            <id="contact-form" name="contact-form">
+                <!-- text  -->
+                <label for="name" class="">Name</label>
+                    <!-- space / line break -->
+                    <br>
+                        <!-- text box to input name -->
+                        <input type="text" id="name" name="name" class="form-control">
+                            <!-- space / line break -->
+                            <br> 
+<!-- third row (email) -->
+<div class="row">
+    <!-- third column-->
+    <div class="col-md-12">
+        <div class="md-form mb-0">
+            <label for="email" class="">Email</label>
+                <br>
+                    <input type="text" id="email" name="email" class="form-control">
+                        <br>
+<!-- fourth row -->
+<div class="row">
+    <!-- fourth column -->
+    <div class="col-md-12">
+        <div class="md-form mb-0">
+            <div class="form-group">
+                <label for="textarea">Message</label>
+                    <textarea class="form-control" id="textarea" rows="7"></textarea>
+                    <br>
+<!-- button -->
+<div class="row">
+    <div class="col-md-12">
+        <div class="text-center text-md-left">
+            <a class="btn btn-dark text-white" onclick="document.getElementById('contact-form').submit();">Submit</a>
+                <div class="status">
+            </div>
+        </div>
+    </div>
+</form>
+<!-- end of form -->
+<!-- footer -->
+<div class="footer d-block p-2 bg-dark text-white font-small fixed-bottom" id="footer"> 
+    <!-- footer elements -->
+    <nav class="nav footer-brand justify-content-center"></nav>
+        <!-- copyright -->
+        <div class="footer-copyright text-center text-white py-3">© 2018 Copyright</div>
+    </div>
+    </body>
+</html>
